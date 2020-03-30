@@ -5,19 +5,19 @@
 
 from selenium import webdriver
 
-driver = webdriver.Firefox() #We set the webdriver to Firefox
-driver.get("https://s1.demo.opensourcecms.com/s/44")
+driver = webdriver.Firefox()                                    #We set the webdriver to Firefox
+driver.get("https://www.WebSiteAddress")                        #we go on the website login page
 
-print(driver.title)      #checking we land on the correct webpage
+print(driver.title)                                             #checking we land on the correct webpage
 
-driver.switch_to_frame("preview-frame")                              #We make sure to be on the correct frame as page contains 2
+""" driver.switch_to_frame("body-inner") """                           #We switch to the correct frame IF NEEDED
 
-inputElement = driver.find_element_by_name("txtUsername")            #finding username input element
-inputElement.send_keys("opensourcecms")                              #Sending username input
+inputElement = driver.find_element_by_name("Username element name")    #finding username input element
+inputElement.send_keys("User name to enter")                           #Sending username input
 
-inputElement = driver.find_element_by_name("txtPassword")            #finding password input element
-inputElement.send_keys("opensourcecms")                              #Sending password input
+inputElement = driver.find_element_by_name("password element name")    #finding password input element
+inputElement.send_keys("Password to enter")                            #Sending password input
 
-inputElement.submit()
+inputElement.submit()                                                  #submitting login credentials
 
-driver.quit()
+driver.quit()                                                          #Should return exit code 0 if positive test

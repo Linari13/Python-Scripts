@@ -459,8 +459,14 @@ bextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.o
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1585327686609	Marionette	INFO	Listening on port 63607
 1585327686850	Marionette	WARN	TLS certificate errors will be ignored for this session
-1585327929698	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofileZDLFI2"
-1585327930356	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585330222655	Marionette	INFO	Stopped listening on port 63607
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+bextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
 1585327931574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
 1585327931574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
 1585327931574	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
@@ -524,3 +530,141 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 JavaScript warning: https://s2.demo.opensourcecms.com/orangehrm/scripts/jquery/jquery.js.pagespeed.jm.dnkLq1BuzX.js, line 16: unreachable code after return statement
 JavaScript error: https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login, line 80: SecurityError: Permission denied to get property "href" on cross-origin object
 JavaScript warning: https://s2.demo.opensourcecms.com/orangehrm/scripts/jquery/jquery.js, line 16: unreachable code after return statement
+1585330225025	Marionette	INFO	Stopped listening on port 63952
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1585552931026	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofilePCM3gX"
+1585552931653	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585552932774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585552932774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585552932774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585552932774	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585552938207	Marionette	INFO	Listening on port 64990
+1585552938393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/login, line 25: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.phptravels.net/themes/default/assets/js/plugins.js, line 3317: unreachable code after return statement
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/plugins/infobox.js line 8 > eval, line 1: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/login, line 719: SyntaxError: expected expression, got ','
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/custom-detail-map.js, line 8: ReferenceError: google is not defined
+1585552974111	Marionette	INFO	Stopped listening on port 64990
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1585553014689	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofileXmK7dR"
+1585553015255	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585553016094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585553016094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585553016094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585553016095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585553020073	Marionette	INFO	Listening on port 65049
+1585553020455	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/login, line 25: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.phptravels.net/themes/default/assets/js/plugins.js, line 3317: unreachable code after return statement
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/plugins/infobox.js line 8 > eval, line 1: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/login, line 719: SyntaxError: expected expression, got ','
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/custom-detail-map.js, line 8: ReferenceError: google is not defined
+1585553052254	Marionette	INFO	Stopped listening on port 65049
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1585553055961	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofile09KzFd"
+1585553056619	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585553057687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585553057687	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585553057688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585553057688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585553061231	Marionette	INFO	Listening on port 65110
+1585553062416	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/login, line 25: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.phptravels.net/themes/default/assets/js/plugins.js, line 3317: unreachable code after return statement
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/plugins/infobox.js line 8 > eval, line 1: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/login, line 719: SyntaxError: expected expression, got ','
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/custom-detail-map.js, line 8: ReferenceError: google is not defined
+1585553067910	Marionette	INFO	Stopped listening on port 65110
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1585553095301	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofileWSX92T"
+1585553096003	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585553097145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585553097145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585553097145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585553097145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585553100246	Marionette	INFO	Listening on port 65175
+1585553100574	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/login, line 25: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.phptravels.net/themes/default/assets/js/plugins.js, line 3317: unreachable code after return statement
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/plugins/infobox.js line 8 > eval, line 1: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/login, line 719: SyntaxError: expected expression, got ','
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/custom-detail-map.js, line 8: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/account/, line 25: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.phptravels.net/themes/default/assets/js/plugins.js, line 3317: unreachable code after return statement
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/plugins/infobox.js line 8 > eval, line 1: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/account/, line 1766: SyntaxError: expected expression, got ','
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/custom-detail-map.js, line 8: ReferenceError: google is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012E,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB30006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1585553126249	Marionette	INFO	Stopped listening on port 65175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1585553560881	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofile6mKI7a"
+1585553561415	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585553562264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585553562264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585553562264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585553562264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585553565967	Marionette	INFO	Listening on port 65268
+1585553566108	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/login, line 25: TypeError: document.getElementById(...) is null
+JavaScript warning: https://www.phptravels.net/themes/default/assets/js/plugins.js, line 3317: unreachable code after return statement
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/plugins/infobox.js line 8 > eval, line 1: ReferenceError: google is not defined
+JavaScript error: https://www.phptravels.net/login, line 719: SyntaxError: expected expression, got ','
+JavaScript error: https://www.phptravels.net/themes/default/assets/js/custom-detail-map.js, line 8: ReferenceError: google is not defined
+1585553582326	Marionette	INFO	Stopped listening on port 65268
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1585553597004	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\FRDRIC~1\\AppData\\Local\\Temp\\rust_mozprofileNcmFoZ"
+1585553597464	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1585553598742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1585553598742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1585553598742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1585553598743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1585553603009	Marionette	INFO	Listening on port 65327
+1585553603243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1585553608933	Marionette	INFO	Stopped listening on port 65327
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
