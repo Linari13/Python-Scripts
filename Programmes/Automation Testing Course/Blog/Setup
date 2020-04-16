@@ -1,10 +1,17 @@
 1. Install the virtualEnv Package for Python:
     - Open command prompt
     - type: pip install virtualenv
+
+2. Set up your enviroment (to do with each new project)
     - cd your project directory
     - type: virtualenv venv --python=python3.8  (or any other version of python you have)
 
-2. Project Structure:
+3. Set up the python interpretor
+    - open pycharm
+    - Select the new project folder
+    - File > Settings > Project > Python interpreter > selec python 3.8 (from the venv folder)
+
+3. Project Structure:
     - Create a Blog folder (for example)
     - Create a new Python project called "Tests" under Blog
     - Create 3 python files as shown in structure:
@@ -15,4 +22,3 @@
             post.py      (Python file)
 
     - Create a new Python Package called "Unit" under tests
-

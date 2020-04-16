@@ -20,8 +20,8 @@ class Apptest(TestCase):
 
     #Testing print blog function is called
     def test_menu_calls_print_blogs(self):
-        # we patch the "print_blogs" method from tha app file (replacing it with a mock)
-        with patch('app.print_blogs') as mocked_print_blogs:
+        # we patch the "print_blogs" method from tha app1 file (replacing it with a mock)
+        with patch('app1.print_blogs') as mocked_print_blogs:
 
             #Patching input method (for the test to not wait for an user's input)
             # we simulate the input q as returned value
@@ -38,8 +38,8 @@ class Apptest(TestCase):
             self.assertEqual(app.blogs[ 'Blog Title' ].author, 'Blog Author')
 
             """ #Another way to do it would be:
-            with patch ('app.ask_create_blog') as mocked_ask_create_blog:
-                app.menu()
+            with patch ('app1.ask_create_blog') as mocked_ask_create_blog:
+                app1.menu()
                 mocked_ask_create_blog.assert_called()
                 
                                  -> but in that case no need for 'Blog Title', 'Blog Author' effects"""
@@ -47,14 +47,14 @@ class Apptest(TestCase):
     def test_menu_calls_list_blog(self):
         with patch('builtins.input') as mocked_input:
             mocked_input.side_effect = ('l', 'q')
-            with patch ('app.print_blogs') as mocked_print_blogs:
+            with patch ('app1.print_blogs') as mocked_print_blogs:
                 app.menu()
                 mocked_print_blogs.assert_called()
 
     def test_menu_calls_read_blog(self):
         with patch('builtins.input') as mocked_input:
             mocked_input.side_effect = ('r', 'q')
-            with patch ('app.ask_read_blog') as mocked_ask_read_blog:
+            with patch ('app1.ask_read_blog') as mocked_ask_read_blog:
                 app.menu()
                 mocked_ask_read_blog.assert_called()
 
@@ -67,8 +67,8 @@ class Apptest(TestCase):
 
             """ #Another way to test it would be:
             
-            with patch ('app.ask_create_post') as mocked_ask_create_post:
-                app.menu()
+            with patch ('app1.ask_create_post') as mocked_ask_create_post:
+                app1.menu()
                 mocked_ask_create_post.assert_called()          
                                 
                                 -> but in this case no need for 'Blog Title', 'Post Title', 'Post Content', effects"""
@@ -90,7 +90,7 @@ class Apptest(TestCase):
 
     def test_ask_read_blog(self):
         with patch('builtins.input', return_value = 'Test') as mocked_input:
-            with patch('app.print_posts') as mocked_print_posts:
+            with patch('app1.print_posts') as mocked_print_posts:
                 app.ask_read_blog()
                 mocked_print_posts.assert_called_with(app.blogs['Test'])
 
@@ -98,7 +98,7 @@ class Apptest(TestCase):
         blog = app.blogs['Test']
         blog.create_post_in_blog('Test Post', 'Test Content')
 
-        with patch('app.print_post') as mocked_print_post:
+        with patch('app1.print_post') as mocked_print_post:
             app.print_posts(blog)
             mocked_print_post.assert_called_with(blog.posts[0])
 
