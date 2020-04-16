@@ -32,7 +32,7 @@ class BlogTest(TestCase):
         #Blog creation
         b2 = Blog('Mon Blog', 'Fred')
         #1st Post creation
-        b2.create_post_in_blog('Post1','Content1')
+        b2.create_post_in_blog('Post1', 'Content1')
         expected1 = {
                         'title': 'Mon Blog',
                         'author': 'Fred',
